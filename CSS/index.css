@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #2CB3F3;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    width: 880px;
+    height: 616px;
+    background-color: #FFFFFF;;
+    border-radius: 100px 100px 0 0;
+    margin: 2em;    
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;  
+}
+
+.face{
+    width: 692px;
+    height: 487px;
+    background-color: #FFE1C9;
+    border-radius: 100%;
+    position: relative;
+    left: 11%;
+    top: 10%;
+}
+
+.box-general{
+    display: flex;
+    position: absolute;
+    top: 25%;
+}
+
+.box1{
+    width: 55.7px;
+    height: 55.7px;
+    background-color: #000000;
+    border-radius: 100%;
+    position: relative;
+    left: 160%;
+}
+
+.box2{
+    width: 55.7px;
+    height: 55.7px;
+    background-color: #000;
+    border-radius: 100%;
+    position: relative;
+    left: 360%;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;    
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+/*SOMBRA DO INPUT*/
+.form-login input{
+    width: 373px;
+    padding: 10px;
+    border-radius: 5px;
+    border: #000000 solid 3px;
+   }
+
+button{
+    width: 220px;
+    height: 70px;
+    background-color: #55A603;
+    border-radius: 5px;    
+    left: 50%;
+    top: 106%;
+    text-transform: uppercase;
+  /*TEXTO ENTRAR*/
+    color: #B2F272;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;  
+   -webkit-transform: translate(-50%, -50%);  
+}
